@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Band Sign Up</title>
+</head>
+<body>
+    <h1>Band Sign Up Page</h1>
+    <!-- Use GET, not POST -->
+    <form method="GET">
+    	
+    	First Name: <input type="text" name="firstname" required><br>
+    	Last Name: <input type="text" name="lastname"required><br>
+    	Birthday: <input type="date" name="birthday"><br>
+    	Gender: <br>
+    	<input type="radio" name="gender" value="male">Male<br>
+    	<input type="radio" name="gender" value="female">Female<br>
+    	<input type="radio" name="gender" value="other">Other<br>
+    	Intrument(s) You Play: <br> 
+    	<input type="checkbox" name="guitar" required>Guitar<br>
+    	<input type="checkbox" name="bass" required>Bass<br>
+    	<input type="checkbox" name="drums" required>Drums<br>
+    	<input type="checkbox" name="piano" required>Piano<br>
+    	Availability: <br>
+    	<select multiple name="availability">
+    		<option value="Monday" name="mon">Monday</option>
+    		<option value="Tuesday" name="tue">Tuesday</option>
+    		<option value="Wednesday" name="wed">Wednesday</option>
+    		<option value="Thursday" name="thu">Thursday</option>
+    		<option value="Friday" name="fri">Friday</option>
+    		<option value="Saturday" name="sat">Saturday</option>
+    		<option value="Sunday" name="sun">Sunday</option>
+    	</select><br>
+
+    	Email: <input type="email" name="email" required><br>
+    	Password: <input type="password" min="5" name="password"><br>
+    	<input type="submit" value="Sign Up!">
+    	<input type="reset"><br>
+    	<a href="My first website!!.html">
+        </h1><h2>Click here to go back to home page!</h2>
+    </a>
+    </form>
+
+</body>
+</html>
